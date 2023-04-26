@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+StreamReader file = File.OpenText("C:/Users/generation/Downloads/addresses.csv");
