@@ -37,4 +37,9 @@ while (!file.EndOfStream)
         AddressList.Add(Address);
     }
 
+}file.Close();
+
+foreach (AddressList address in AddressList)
+{
+    Console.WriteLine(address);
 }
