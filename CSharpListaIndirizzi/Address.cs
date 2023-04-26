@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,6 +20,16 @@ namespace AddressClass
         private string zip;
 
         //CONTRUCTORS
-        public string address(string name, string surname, string street, string city, string province, string zip);
+        public string dateAddress(string name, string surname, string street, string city, string province, string zip)
+        {
+            this.name = name;
+            this.surname = surname;
+            this.street = street;
+            this.city = city;
+            this.province = province;
+            this.zip = zip;
+        }
+
+        
 
     }
