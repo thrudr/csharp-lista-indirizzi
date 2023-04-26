@@ -30,6 +30,17 @@ namespace AddressClass
             this.zip = zip;
         }
 
-        
+
+        //METHODS
+        public override string ToString()
+        {
+            return "\n\nNome: " + this.name
+                 + "\nCognome: " + this.surname
+                 + "\nVia: " + this.street
+                 + "\nCittà: " + this.city
+                 + "\nProvincia: " + this.province
+                 + "\nZIP: " + this.zip;
+        }
+
 
     }
